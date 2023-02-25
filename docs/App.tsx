@@ -14,6 +14,7 @@ const codeMap: Partial<Record<Language, string>> = {
   yaml: findCode('yaml'),
   markup: findCode('html'),
   css: findCode('css'),
+  scss: findCode('scss'),
   javascript: findCode('js'),
   jsx: findCode('jsx'),
   typescript: findCode('ts'),
