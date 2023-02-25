@@ -117,6 +117,8 @@ async function foobar(options?: Options): Promise<string> {
 }
 
 class Foobar extends Foo<Options> {
+  private state = null;
+
   constructor() {
     super();
     this.state = 'idle';
@@ -129,7 +131,7 @@ class Foobar extends Foo<Options> {
 ```tsx
 import React from 'react';
 
-type Props = {
+interface Props = {
   children: React.ReactNode,
   className?: string;
 }

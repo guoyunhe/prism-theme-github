@@ -75,7 +75,8 @@ pre[class*='language-'] {
 .language-css .token.property,
 .language-scss .token.property,
 .token.atrule.keyword,
-.token.operator {
+.token.operator,
+.token.property-access {
   color: #0550ae;
 }
 
