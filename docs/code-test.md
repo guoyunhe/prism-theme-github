@@ -83,9 +83,8 @@ import React from 'react';
  * Foobar
  * @see https://foobar.com/
  */
-function Foobar(foo, bar) {
-  if (!foo) return bar;
-  if (!bar) return foo;
-  return `${foo}, ${bar}`;
+function Foobar({ children, className }) {
+  const [state, setState] = useState();
+  return <div className={className} data-testid="foobar">{children}<div>;
 }
 ```
