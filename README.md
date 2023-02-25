@@ -1,11 +1,11 @@
-# prism-theme-github
+# @guoyunhe/prism-theme-github
 
 GitHub light/dark color themes for Prism syntax highlighter
 
 ## Install
 
 ```bash
-npm i prism-theme-github
+npm i @guoyunhe/prism-theme-github
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "prism-theme-github",
+  "name": "@guoyunhe/prism-theme-github",
   "version": "1.0.0",
   "description": "GitHub light/dark color themes for Prism syntax highlighter",
   "keywords": [
