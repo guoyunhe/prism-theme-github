@@ -66,4 +66,10 @@ var foo = Infinity;
 let foo = ((1 + 2) * 6) / 4;
 let foo = false;
 let foo = (true && false) || (true && 6 >= 5);
+
+function foobar(foo, bar) {
+  if (!foo) return bar;
+  if (!bar) return foo;
+  return `${foo}, ${bar}`;
+}
 ```

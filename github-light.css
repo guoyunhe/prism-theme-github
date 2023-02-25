@@ -1,0 +1,64 @@
+/*
+ * GitHub Light theme for Prism.js
+ * Author: Guo Yunhe
+ * It is a clone of https://github.com/primer/github-syntax-light/blob/master/lib/github-light.css
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  overflow: auto;
+  font-size: 0.85em;
+  line-height: 1.45;
+  padding: 16px;
+  color: #24292f;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* comment */
+.token.comment {
+  color: #6e7781;
+}
+
+/* keyword */
+.token.keyword,
+.token.atrule.rule {
+  color: #cf222e;
+}
+
+/* entity-tag */
+.language-json .token.property,
+.language-markup .token.tag:not(.punctuation):not(.attr-name):not(.attr-value) {
+  color: #116329;
+}
+
+/* string */
+.token.string,
+.token.attr-value {
+  color: #0a3069;
+}
+
+/* constant */
+.token.number,
+.token.boolean,
+.token.null.keyword,
+.token.doctype,
+.token.attr-name {
+  color: #0550ae;
+}
