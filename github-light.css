@@ -42,23 +42,38 @@ pre[class*='language-'] {
   color: #cf222e;
 }
 
+/* entity */
+.token.function {
+  color: #8250df;
+}
+
 /* entity-tag */
 .language-json .token.property,
-.language-markup .token.tag:not(.punctuation):not(.attr-name):not(.attr-value) {
+.language-markup .token.tag:not(.punctuation):not(.attr-name):not(.attr-value),
+.token.selector {
   color: #116329;
 }
 
 /* string */
 .token.string,
-.token.attr-value {
+.token.template-string,
+.token.attr-value,
+.token.hexcode.color {
   color: #0a3069;
 }
 
 /* constant */
 .token.number,
 .token.boolean,
-.token.null.keyword,
+.token.keyword.nil,
 .token.doctype,
-.token.attr-name {
+.token.attr-name,
+.token.selector.class,
+.token.selector.pseudo-class,
+.token.selector.combinator,
+.language-css .token.property,
+.language-scss .token.property,
+.token.atrule.keyword,
+.token.operator {
   color: #0550ae;
 }

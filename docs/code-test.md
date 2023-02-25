@@ -73,3 +73,19 @@ function foobar(foo, bar) {
   return `${foo}, ${bar}`;
 }
 ```
+
+## jsx
+
+```jsx
+import React from 'react';
+
+/**
+ * Foobar
+ * @see https://foobar.com/
+ */
+function Foobar(foo, bar) {
+  if (!foo) return bar;
+  if (!bar) return foo;
+  return `${foo}, ${bar}`;
+}
+```
