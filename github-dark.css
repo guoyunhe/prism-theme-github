@@ -1,0 +1,89 @@
+/*
+ * GitHub Dark theme for Prism.js
+ * Author: Guo Yunhe
+ * It is a clone of https://github.com/primer/github-syntax-dark/blob/master/lib/github-dark.css
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  overflow: auto;
+  font-size: 0.85em;
+  line-height: 1.45;
+  padding: 16px;
+  color: #c9d1d9;
+  background-color: #161b22;
+  border-radius: 6px;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* comment */
+.token.comment {
+  color: #8b949e;
+}
+
+/* keyword */
+.token.keyword,
+.token.atrule.rule {
+  color: #ff7b72;
+}
+
+/* entity */
+.token.function {
+  color: #d2a8ff;
+}
+
+/* entity-tag */
+.language-json .token.property,
+.language-yaml .token.key,
+.token.tag:not(.punctuation):not(.attr-name):not(.attr-value):not(.script),
+.token.selector {
+  color: #7ee787;
+}
+
+/* string */
+.token.string,
+.token.template-string,
+.token.attr-value,
+.token.hexcode.color {
+  color: #a5d6ff;
+}
+
+/* constant */
+.token.number,
+.token.boolean,
+.token.keyword.nil,
+.token.null,
+.token.doctype,
+.token.attr-name,
+.token.selector.class,
+.token.selector.pseudo-class,
+.token.selector.combinator,
+.token.property,
+.token.property,
+.token.atrule.keyword,
+.token.operator,
+.token.property-access {
+  color: #79c0ff;
+}
+
+/* variable */
+.token.variable,
+.token.class-name,
+.token.maybe-class-name {
+  color: #ffa657;
+}
