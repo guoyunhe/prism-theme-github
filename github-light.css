@@ -49,7 +49,7 @@ pre[class*='language-'] {
 
 /* entity-tag */
 .language-json .token.property,
-.language-markup .token.tag:not(.punctuation):not(.attr-name):not(.attr-value),
+.token.tag:not(.punctuation):not(.attr-name):not(.attr-value):not(.script),
 .token.selector {
   color: #116329;
 }
@@ -66,6 +66,7 @@ pre[class*='language-'] {
 .token.number,
 .token.boolean,
 .token.keyword.nil,
+.token.keyword.null,
 .token.doctype,
 .token.attr-name,
 .token.selector.class,
@@ -76,4 +77,9 @@ pre[class*='language-'] {
 .token.atrule.keyword,
 .token.operator {
   color: #0550ae;
+}
+
+/* variable */
+.token.maybe-class-name {
+  color: #953800;
 }

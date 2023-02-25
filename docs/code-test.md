@@ -88,3 +88,24 @@ function Foobar({ children, className }) {
   return <div className={className} data-testid="foobar">{children}<div>;
 }
 ```
+
+## typescript
+
+```ts
+/* Comment */
+
+import foo from './foo';
+import { bar } from './bar';
+import foo, { bar } from './foobar';
+
+interface Options {
+  validator: () => void;
+}
+
+// TypeScript
+async function foobar(options?: Options): Promise<string> {
+  if (!foo) return bar;
+  if (!bar) return foo;
+  return `${foo}, ${bar}`;
+}
+```
