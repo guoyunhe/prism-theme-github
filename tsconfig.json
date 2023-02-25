@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/vite-react/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "prism-theme-github": [
+        "./src"
+      ]
+    },
+    "types": [
+      "jest",
+      "@guoyunhe/react-lib-scripts/global"
+    ]
+  }
+}
