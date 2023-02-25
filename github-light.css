@@ -49,6 +49,7 @@ pre[class*='language-'] {
 
 /* entity-tag */
 .language-json .token.property,
+.language-yaml .token.key,
 .token.tag:not(.punctuation):not(.attr-name):not(.attr-value):not(.script),
 .token.selector {
   color: #116329;
@@ -66,7 +67,7 @@ pre[class*='language-'] {
 .token.number,
 .token.boolean,
 .token.keyword.nil,
-.token.keyword.null,
+.token.null,
 .token.doctype,
 .token.attr-name,
 .token.selector.class,
