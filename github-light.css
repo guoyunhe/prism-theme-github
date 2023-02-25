@@ -72,8 +72,8 @@ pre[class*='language-'] {
 .token.selector.class,
 .token.selector.pseudo-class,
 .token.selector.combinator,
-.language-css .token.property,
-.language-scss .token.property,
+.token.property,
+.token.property,
 .token.atrule.keyword,
 .token.operator,
 .token.property-access {

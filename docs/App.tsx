@@ -11,6 +11,7 @@ function findCode(language: string) {
 
 const codeMap: Partial<Record<Language, string>> = {
   json: findCode('json'),
+  yaml: findCode('yaml'),
   markup: findCode('html'),
   css: findCode('css'),
   javascript: findCode('js'),

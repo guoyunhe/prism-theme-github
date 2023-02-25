@@ -12,6 +12,22 @@
 }
 ```
 
+## yaml
+
+```yaml
+name: 'Chair'
+quantity: 12
+price: 899
+instock: false
+description: null
+attrs:
+  sizes:
+    - 12
+    - 13
+    - 14
+  origin: 'Yiwu'
+```
+
 ## markup
 
 ```html
