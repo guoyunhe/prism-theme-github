@@ -28,5 +28,5 @@ import 'prism-theme-github/github-dark.css';
 
 ## Demo
 
-Prism demo: https://prism-theme-github.netlify.app/
-GitHub file: https://github.com/guoyunhe/prism-theme-github/blob/main/docs/code-test.md
+- Prism demo: https://prism-theme-github.netlify.app/
+- GitHub file: https://github.com/guoyunhe/prism-theme-github/blob/main/docs/code-test.md
