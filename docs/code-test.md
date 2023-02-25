@@ -123,3 +123,23 @@ class Foobar extends Foo<Options> {
   }
 }
 ```
+
+## tsx
+
+```tsx
+import React from 'react';
+
+type Props = {
+  children: React.ReactNode,
+  className?: string;
+}
+
+/**
+ * Foobar
+ * @see https://foobar.com/
+ */
+function Foobar({ children, className }: Props) {
+  const [state, setState] = useState();
+  return <div className={className} data-testid="foobar">{children}<div>;
+}
+```
