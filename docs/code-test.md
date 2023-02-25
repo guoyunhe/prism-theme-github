@@ -54,6 +54,7 @@ attrs:
 @import url('../what.css');
 
 body {
+  font-family: Helvetica, sans-serif;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 1);
   font-size: 12px;
