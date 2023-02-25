@@ -80,6 +80,7 @@ pre[class*='language-'] {
 }
 
 /* variable */
+.token.class-name,
 .token.maybe-class-name {
   color: #953800;
 }

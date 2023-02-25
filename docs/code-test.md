@@ -72,6 +72,13 @@ function foobar(foo, bar) {
   if (!bar) return foo;
   return `${foo}, ${bar}`;
 }
+
+class Foobar extends Foo {
+  constructor() {
+    super();
+    this.state = 'idle';
+  }
+}
 ```
 
 ## jsx
@@ -107,5 +114,12 @@ async function foobar(options?: Options): Promise<string> {
   if (!foo) return bar;
   if (!bar) return foo;
   return `${foo}, ${bar}`;
+}
+
+class Foobar extends Foo<Options> {
+  constructor() {
+    super();
+    this.state = 'idle';
+  }
 }
 ```
