@@ -1,7 +1,7 @@
 {
   "name": "prism-theme-github",
   "version": "1.0.0",
-  "description": "",
+  "description": "GitHub light/dark color themes for Prism syntax highlighter",
   "keywords": [
     "node"
   ],
@@ -14,16 +14,13 @@
     "url": "git+https://github.com/guoyunhe/prism-theme-github.git"
   },
   "funding": "https://github.com/sponsors/guoyunhe",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "author": {
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
   "files": [
-    "dist",
+    "*.css",
     "CHANGELOG.md",
     "LICENSE",
     "README.md"

@@ -2,8 +2,5 @@
 
 ## 1.0.0 - 2023-02-25
 
-- Added something
-- Changed something
-- Fixed something
-- Removed something
-- Deprecated something
+- Added `github-light.css`
+- Added `github-dark.css`
